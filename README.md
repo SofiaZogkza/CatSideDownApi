@@ -21,6 +21,7 @@
 
 An Api which generates Upside Down kitten pictures.
 Use - cases:
+
 Login (Authenticated - Authorized user) can:
 * Call the service API (https://cataas.com) and and finally see the upcoming pictured flipped upside down.
 * LogOut
