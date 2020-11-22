@@ -43,7 +43,6 @@ namespace CatSideDownApi.Controllers
         {
             var result =  _service.LogIn(req);
             var response = new LogInResponse();
-            //IActionResult response = Unauthorized();
 
             if (result.Response.Success == true)
             {
@@ -57,6 +56,10 @@ namespace CatSideDownApi.Controllers
                     },
                     JwtToken = tokenStr
                 };
+            }
+            else
+            {
+                response = result;
             }
             return await Task.FromResult(response);
         }
