@@ -8,7 +8,7 @@
 * SOA (Service Oriented Architecture)
 * Dependency Injection
 
-### Technologies used:###
+### Technologies used: ###
 
 * .NET Core 3.1
 * C#
